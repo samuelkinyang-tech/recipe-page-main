@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(243, 229, 216);;
+    color: hsl(24, 5%, 18%)
+}
+
+.container {
+    border: 4px hsl(30, 10%, 34%);
+    border-radius: 10px;
+}
+
+.card-img>img {
+    display: flex;
+    margin: 0px;
+    border-image: 4px solid hsl(332, 51%, 32%);
+    width: 100%;
+    height: 300px;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.card {
+    justify-self: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    width: 670px;
+    padding: 20px;
+}
+
+.card-name {
+    color: hsl(24, 5%, 18%);
+}
+
+.card>li,
+.card-name-p {
+    font-family: "Outfit", sans-serif;
+}
+
+.card>.card-ingredients>h3,
+.card-instructions>h3,
+.card-preparation-time>h3,
+.card-nutrition>h3 {
+    color: hsl(14, 45%, 36%);
+}
+
+.card-preparation-time {
+    font-size: 17px;
+    padding: 0px 10px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.card-preparation-time>h2 {
+    padding-top: 10px;
+    font-size: 19px;
+    color: hsl(332, 51%, 32%);
+}
+
+.card-preparation-time>ul {
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+.card-preparation-time>ul>li {
+    margin: 4.9px;
+}
+
+.card-ingredients>h3, .card-instructions>h3 {
+    margin-left: 33px;
+}
+
+.card-ingredients>ul>li {
+    margin: 10px;
+}
+
+.card-instructions>ol>li {
+    margin: 10px;
+}
