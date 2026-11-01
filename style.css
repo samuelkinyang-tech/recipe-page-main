@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(243, 229, 216);;
+    background-color: rgb(243, 229, 216);
+    ;
     color: hsl(24, 5%, 18%)
 }
 
@@ -63,7 +64,8 @@ body {
     margin: 4.9px;
 }
 
-.card-ingredients>h3, .card-instructions>h3 {
+.card-ingredients>h3,
+.card-instructions>h3 {
     margin-left: 33px;
 }
 
